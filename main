@@ -9,6 +9,9 @@ clock = pg.time.Clock()
 
 #create game window
 screen = pg.display.set_mode((c.SCREEN_WIDTH, c.SCREEN_HEIGHT))
+background = pg.image.load('Map.png')
+screen.blit(background, (0, 0))
+pg.display.update()
 pg.display.set_caption("Azzy TD")
 
 #game loop
@@ -23,4 +26,4 @@ while run:
         if event.type == pg.QUIT:
             run = False
             
-pg.quit() 
+pg.quit()
