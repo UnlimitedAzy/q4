@@ -1,3 +1,4 @@
+MAP = ('Map.png')
 SCREEN_WIDTH = 750
 SCREEN_HEIGHT = 750
 FPS = 60
